@@ -8,7 +8,7 @@ import Index from "./pages/Index.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Gallery from "./pages/Gallery.jsx";
-import Management from "./pages/Management.js";
+import Management from "./pages/Management.jsx";
 import News from "./pages/News.jsx";
 import NotFound from "./pages/NotFound.jsx";
 
@@ -35,3 +35,4 @@ const App = () => (
 );
 
 export default App;
+
