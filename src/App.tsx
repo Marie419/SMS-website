@@ -10,7 +10,7 @@ import Contact from "./pages/Contact.jsx";
 import Gallery from "./pages/Gallery.jsx";
 import Management from "./pages/Management.js";
 import News from "./pages/News.jsx";
-import NotFound from "./pages/NotFound.js";
+import NotFound from "./pages/NotFound.jsx";
 
 const queryClient = new QueryClient();
 
