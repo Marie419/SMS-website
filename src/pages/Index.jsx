@@ -6,7 +6,7 @@ import ActivitiesSection from '../components/ActivitiesSection';
 import BlogSection from '../components/BlogSection';
 import TeamSection from '../components/TeamSection';
 import GallerySection from '../components/GallerySection';
-import CtaSection from '../components/CtaSection';
+import EducationCtaSection from '../components/EducationCtaSection';
 import Footer from '../components/Footer';
 
 const Index = () => {
@@ -19,7 +19,7 @@ const Index = () => {
         <BlogSection />
         <TeamSection />
         <GallerySection />
-        <CtaSection />
+        <EducationCtaSection />
       </main>
       <Footer />
     </div>
