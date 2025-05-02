@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4 flex items-center">
-              <span className="text-orange">Kinder</span>
-              <span className="text-white">Care</span>
+              <span className="text-orange">Sainte</span>
+              <span className="text-white">Marie</span>
             </h3>
             <p className="mb-4">
               Welcome to our nursery where we nurture your child's growth and development in a safe and stimulating environment.

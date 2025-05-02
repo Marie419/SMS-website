@@ -9,8 +9,8 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-xl font-bold">
           <Link to="/" className="flex items-center hover:text-violet">
-            <span className="text-orange">Kinder</span>
-            <span>Care</span>
+            <span className="text-orange">Sainte</span>
+            <span>Marie</span>
           </Link>
         </div>
         <div className="hidden md:flex space-x-6 ml-auto">
