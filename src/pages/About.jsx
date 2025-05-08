@@ -1,7 +1,7 @@
-
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import EducationCtaSection from '../components/EducationCtaSection';
 
 const About = () => {
   return (
@@ -73,6 +73,8 @@ const About = () => {
             </p>
           </div>
         </div>
+        
+        <EducationCtaSection />
       </main>
       <Footer />
     </div>

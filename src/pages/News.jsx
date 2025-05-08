@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { Button } from "@/components/ui/button";
 import { MessageSquare, Calendar, User, FilePen } from "lucide-react";
+import EducationCtaSection from '../components/EducationCtaSection';
 
 const News = () => {
   const newsEvents = [
@@ -93,6 +94,10 @@ const News = () => {
               </div>
             ))}
           </div>
+        </div>
+        
+        <div className="mt-16">
+          <EducationCtaSection />
         </div>
       </main>
       <Footer />

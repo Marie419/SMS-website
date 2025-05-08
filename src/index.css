@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -47,6 +48,11 @@
 
     --background-secondary: 273 57% 50% / 0.2; /* Violet with opacity */
     --background-accent: 26 100% 65% / 0.2; /* Orange with opacity */
+    --background-secondary: 240 5.9% 10%; /* Slightly lighter dark background */
+    --background-accent: 240 3.7% 15.9%; /* Even more nuanced dark background */
+    
+    --orange: 26 100% 65%; /* Orange color for design consistency */
+    --orange-dark: 26 100% 55%; /* Darker orange for hover states */
   }
 
   .dark {
@@ -117,3 +123,19 @@
     @apply text-orange-500 font-medium;
   }
 }
+  
+  .bg-orange {
+    @apply bg-[#FF9843];
+  }
+  
+  .text-orange {
+    @apply text-[#FF9843];
+  }
+  
+  .hover\:bg-orange-dark:hover {
+    @apply hover:bg-[#F08A33];
+  }
+  
+  .hover\:text-orange:hover {
+    @apply hover:text-[#FF9843];
+  }

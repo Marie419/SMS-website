@@ -2,6 +2,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import EducationCtaSection from '../components/EducationCtaSection';
 
 const Gallery = () => {
   return (
@@ -12,6 +13,8 @@ const Gallery = () => {
           <h1 className="text-3xl font-bold mb-8">Gallery</h1>
           <p className="text-gray-600">This is the gallery page.</p>
         </div>
+        
+        <EducationCtaSection />
       </main>
       <Footer />
     </div>
