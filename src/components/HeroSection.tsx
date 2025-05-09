@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from './ui/button';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -59,9 +60,12 @@ const HeroSection = () => {
                 <h1 className="text-4xl md:text-5xl font-bold mb-2">{slide.subtitle}</h1>
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">{slide.subtitle2}</h1>
                 <p className="text-2xl md:text-3xl mb-8">{slide.bottomText}</p>
-                <Button className="bg-orange hover:bg-orange-dark text-white rounded">
-                  More Info
-                </Button>
+                <Link
+            to="/about"
+            className="bg-orange hover:bg-orange-dark text-white rounded px-4 py-2"
+          >
+            More Info
+          </Link>
               </div>
             </div>
           </div>

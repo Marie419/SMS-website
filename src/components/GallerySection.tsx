@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from './ui/button';
 
 const GallerySection = () => {
@@ -27,7 +28,11 @@ const GallerySection = () => {
         </div>
 
         <div className="flex justify-center mt-10">
-          <Button className="bg-orange hover:bg-orange-dark text-white rounded">View More</Button>
+          <Link
+            to="/gallery"
+            className="bg-orange hover:bg-orange-dark text-white rounded px-4 py-2">
+            View More
+          </Link>
         </div>
       </div>
     </section>

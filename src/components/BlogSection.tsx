@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from './ui/button';
 
 const BlogSection = () => {
@@ -55,7 +56,11 @@ const BlogSection = () => {
         </div>
 
         <div className="flex justify-center mt-10">
-          <Button className="bg-orange hover:bg-orange-dark text-white rounded">Read More</Button>
+          <Link
+            to="/news"
+            className="bg-orange hover:bg-orange-dark text-white rounded px-4 py-2">
+            Read More
+          </Link>
         </div>
       </div>
     </section>
